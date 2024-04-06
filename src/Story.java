@@ -14,7 +14,7 @@ public class Story extends javax.swing.JFrame {
      */
     public Story() {
         initComponents();
-         setSize(990, 630);
+          setSize(1000, 630);
         setResizable(false);
     }
 
