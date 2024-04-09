@@ -14,7 +14,7 @@ public class defendone extends javax.swing.JFrame {
      */
     public defendone() {
         initComponents();
-          setSize(700, 600);
+          setSize(900, 660);
         setResizable(false);
     }
 
@@ -46,7 +46,7 @@ public class defendone extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(100, 440, 120, 40);
+        jButton1.setBounds(190, 490, 120, 40);
 
         jButton2.setBackground(new java.awt.Color(102, 102, 255));
         jButton2.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
@@ -57,16 +57,16 @@ public class defendone extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(480, 440, 130, 40);
+        jButton2.setBounds(570, 490, 130, 40);
 
         jTextPane1.setBackground(new java.awt.Color(255, 51, 0));
         jTextPane1.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
-        jTextPane1.setForeground(new java.awt.Color(0, 153, 204));
-        jTextPane1.setText("You are damaged! Should've been bold!");
+        jTextPane1.setForeground(new java.awt.Color(153, 255, 153));
+        jTextPane1.setText("You are damaged! Should've been bold! The sorcerer hasnt been damaged at all!");
         jScrollPane1.setViewportView(jTextPane1);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(190, 320, 310, 60);
+        jScrollPane1.setBounds(290, 360, 310, 60);
 
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\jury\\Downloads\\twohearts.jpg")); // NOI18N
         getContentPane().add(jLabel2);
@@ -75,16 +75,17 @@ public class defendone extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jury\\Downloads\\defend.png")); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 6, 700, 530);
+        jLabel1.setBounds(0, 6, 900, 600);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        attacktwo two = new attacktwo();
-        two.show();
+       Dead dead = new Dead();
+        dead.show();
         this.dispose();
+       
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

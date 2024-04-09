@@ -90,7 +90,7 @@ public class sorcererone extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jury\\Downloads\\sorcererone.png")); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(-60, 0, 810, 550);
+        jLabel1.setBounds(-60, 0, 1010, 620);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

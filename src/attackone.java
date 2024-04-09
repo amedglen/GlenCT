@@ -77,12 +77,17 @@ public class attackone extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(153, 255, 153));
         jButton3.setFont(new java.awt.Font("Serif", 1, 18)); // NOI18N
         jButton3.setText("Talk with Sorcerer");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton3);
         jButton3.setBounds(490, 430, 220, 50);
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jury\\Downloads\\angrysorcerer.jpg")); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, -120, 810, 750);
+        jLabel1.setBounds(0, -120, 1030, 750);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -100,6 +105,13 @@ public class attackone extends javax.swing.JFrame {
         dead.show();
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        Dead dead = new Dead();
+        dead.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments

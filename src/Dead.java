@@ -14,7 +14,7 @@ public class Dead extends javax.swing.JFrame {
      */
     public Dead() {
         initComponents();
-          setSize(800, 600);
+          setSize(1000,1000);
         setResizable(false);
     }
 
@@ -47,7 +47,7 @@ public class Dead extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jury\\Downloads\\YOUDIED.jpg")); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(-30, 0, 770, 480);
+        jLabel1.setBounds(0, -20, 820, 550);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

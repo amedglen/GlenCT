@@ -7,15 +7,13 @@
  *
  * @author jury
  */
-public class attacktwo extends javax.swing.JFrame {
+public class defattack extends javax.swing.JFrame {
 
     /**
-     * Creates new form attacktwo
+     * Creates new form defattack
      */
-    public attacktwo() {
+    public defattack() {
         initComponents();
-         setSize(665, 524);
-        setResizable(false);
     }
 
     /**
@@ -27,47 +25,34 @@ public class attacktwo extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel2 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextPane1 = new javax.swing.JTextPane();
-        jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jTextPane1.setBackground(new java.awt.Color(153, 255, 153));
-        jTextPane1.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        jTextPane1.setForeground(new java.awt.Color(0, 153, 204));
-        jTextPane1.setText("You have won a great victory! Now be Merry!");
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\jury\\Downloads\\onelives.png")); // NOI18N
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(0, 0, 210, 80);
+
+        jTextPane1.setBackground(new java.awt.Color(153, 255, 102));
+        jTextPane1.setFont(new java.awt.Font("Viner Hand ITC", 1, 24)); // NOI18N
+        jTextPane1.setForeground(new java.awt.Color(255, 0, 0));
+        jTextPane1.setText("Fortune Favors the bold eh?");
         jScrollPane1.setViewportView(jTextPane1);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(210, 270, 250, 100);
+        jScrollPane1.setBounds(300, 310, 320, 80);
 
-        jButton1.setBackground(new java.awt.Color(204, 0, 204));
-        jButton1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
-        jButton1.setText("Back to Menu");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton1);
-        jButton1.setBounds(240, 380, 180, 70);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jury\\Downloads\\win.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jury\\Downloads\\sorcerertwo.jpg")); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, -30, 770, 580);
+        jLabel1.setBounds(-310, 0, 1380, 710);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        startframe start = new startframe();
-        start.show();
-        this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -86,27 +71,27 @@ public class attacktwo extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(attacktwo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(defattack.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(attacktwo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(defattack.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(attacktwo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(defattack.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(attacktwo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(defattack.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new attacktwo().setVisible(true);
+                new defattack().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextPane jTextPane1;
     // End of variables declaration//GEN-END:variables
